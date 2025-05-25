@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/et1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Valor 1" android:inputType="number"/>
+    <EditText android:id="@+id/et2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Valor 2" android:inputType="number"/>
+    <EditText android:id="@+id/et3" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Valor 3" android:inputType="number"/>
+    <EditText android:id="@+id/et4" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Valor 4" android:inputType="number"/>
+    <EditText android:id="@+id/et5" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Valor 5" android:inputType="number"/>
+
+    <Button android:id="@+id/btnOrdenar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ordenar"/>
+    <TextView android:id="@+id/tvResultado" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Resultado" android:textAlignment="center"/>
+</LinearLayout>
